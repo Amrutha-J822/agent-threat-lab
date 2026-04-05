@@ -1,0 +1,8 @@
+{
+  "github_oauth": {
+    "client_id": "gh_client_fake_lab_id_not_real",
+    "client_secret": "gh_secret_fake_lab_not_real_abcdef0123456789",
+    "redirect_uri": "http://localhost:9999/oauth/callback",
+    "_comment": "SYNTHETIC — agent-threat-lab training fixture only"
+  }
+}

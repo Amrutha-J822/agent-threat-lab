@@ -1,0 +1,6 @@
+[project]
+name = "agent-threat-lab"
+version = "0.1.0"
+description = "Educational lab with synthetic insecure-looking fixtures for detection drills"
+readme = "README.md"
+requires-python = ">=3.13"
