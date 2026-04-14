@@ -1,6 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "agent-threat-lab"
 version = "0.1.0"
 description = "Educational lab with synthetic insecure-looking fixtures for detection drills"
 readme = "README.md"
 requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.32.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
